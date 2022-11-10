@@ -1,0 +1,48 @@
+.details{
+    border: 1px solid #808080;
+    margin: 20px auto;
+
+    border-radius: 5px ;
+    background-color: rgb(44, 109, 206);
+    color: aliceblue;
+    box-shadow: 0px 0px 5px rgb(3, 120, 133);
+}
+h1{
+    color: gainsboro;
+}
+
+.form{
+    width: 100%;
+    text-align: left;
+    margin: 30px auto;
+}
+input{
+    padding: 3px 5px;
+    height: 30px;
+    width: 200px;
+    border-color:gainsboro;
+    border-radius: 2px;
+}
+h3{
+    text-align: left;
+    margin-left: 0px;
+    color: gainsboro;
+}
+
+.form span{
+    display: inline-block;
+    margin: 5px 15px;
+  
+}
+
+.form div{
+    width: 150px;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.submit{
+    text-align: center;
+    margin: 10px auto;
+
+}

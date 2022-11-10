@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import { Details } from './Details';
+import { Table } from './Table';
 
 function App() {
+  const [fname,setFname] = useState("")
+  const [lname,setLname] = useState('')
+  const [email,setEmail] = useState('')
+  const [number,setNumber] = useState('')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <div className="App">
+          <Details 
+           fname={fname}
+          setFname={setFname}
+          // lname={lname}
+          // setLname={setLname}
+          // email={email}
+          // setEmail={setEmail}
+          // number={number}
+          // setNumber={setNumber}
+          /><br/>
+          <Table/>
+        </div>
+          
+    </>
   );
 }
 
